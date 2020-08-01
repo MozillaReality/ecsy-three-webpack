@@ -1,0 +1,28 @@
+{
+  "name": "ecsy-three-webpack",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production",
+    "deploy": "gh-pages -d public"
+  },
+  "author": "",
+  "devDependencies": {
+    "@babel/core": "^7.11.0",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.0",
+    "gh-pages": "^3.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "ecsy": "^0.3.2",
+    "ecsy-three": "git+https://github.com/MozillaReality/ecsy-three.git#refactor",
+    "three": "^0.119.1"
+  }
+}
